@@ -1,9 +1,20 @@
 const menuBurger = document.querySelector('.menu-burger'),
       mobileMenu = document.querySelector('.mobile-menu'),
       mobileMenuLists = document.querySelectorAll('.mobile-menu ul li'),
+      loader = document.querySelector('.loader'),
+      body = document.querySelector('body'),
       odometer1 = document.querySelector('.odometer1'),
       odometer2 = document.querySelector('.odometer2'),
       odometer3 = document.querySelector('.odometer3')
+
+
+      window.onload = function () {
+        setTimeout(() => {
+            body.classList.remove('overflow-hidden"')
+            loader.classList.add('hidden');
+            window.scrollTo(0, 0);
+        }, 1000);
+    }
 
 menuBurger.addEventListener('click', () => {
     menuBurger.classList.toggle('change');
