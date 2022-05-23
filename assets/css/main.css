@@ -4,6 +4,12 @@
 @font-face{font-family:Inter;src:url(../font/Inter/Inter-Medium.ttf) format("truetype");font-style:normal;font-weight:500;font-display:fallback}
 @font-face{font-family:Inter;src:url(../font/Inter/Inter-Bold.ttf) format("truetype");font-style:normal;font-weight:700;font-display:fallback}
 @font-face{font-family:Inter;src:url(../font/Inter/Inter-Black.ttf) format("truetype");font-style:normal;font-weight:900;font-display:fallback}
+body {
+    overflow: hidden;
+}
+.showScroll {
+    overflow-y: scroll !important;
+}
 .font-Inter{font-family:Inter,sans-serif}
 .font-Ethnocentric{font-family:Ethnocentric,sans-serif}
 .font-Planet{font-family:Planet,sans-serif}
