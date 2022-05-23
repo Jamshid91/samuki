@@ -97,11 +97,10 @@ $('.our-NFTs-carousel').slick({
         }
       },
         {
-          breakpoint: 992,
+          breakpoint: 1250,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
-            centerMode: false,
           }
         },
         {
@@ -110,7 +109,7 @@ $('.our-NFTs-carousel').slick({
             slidesToShow: 2,
             slidesToScroll: 1,
             centerMode: true,
-            centerPadding: '50px',
+            centerPadding: '30px',
             arrows: false,
           }
         },
@@ -130,7 +129,14 @@ $('.our-team-carousel').slick({
     
     responsive: [
         {
-          breakpoint: 1600,
+          breakpoint: 1800,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 1400,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -139,7 +145,7 @@ $('.our-team-carousel').slick({
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             centerMode: true,
             dots: true,

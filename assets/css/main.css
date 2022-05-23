@@ -44,7 +44,6 @@ header .change #burger_list2{opacity:0}
 .wrapper video{width:100%;-o-object-fit:cover;object-fit:cover}
 .main{height:auto;background-color:#02071c}
 .main_bg{top:0}
-.main .our-NFTs-item{height:293px}
 .main .our-NFTs-carousel{padding-bottom:50px;margin-top:45px}
 .main .our-NFTs-carousel .slick-slide{margin:0 15px}
 .main .partners{background:-webkit-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:-o-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:linear-gradient(90.49deg,#e52229 3.24%,#0500ff 98.59%)}
@@ -54,8 +53,8 @@ header .change #burger_list2{opacity:0}
 .main .mission{width:-100%;height:auto;background-image:url(../img/png/bg-story.png);-webkit-background-size:100% 100%;background-size:100% 100%;background-repeat:no-repeat;background-position:center;margin:285px 0 215px;padding:50px 0 275px}
 .main .mission-card{width:auto;height:auto;display:inline-block;background:-webkit-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:-o-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:linear-gradient(90.49deg,#e52229 3.24%,#0500ff 98.59%);-webkit-box-shadow:0 7px 25px rgba(68,9,195,.5);box-shadow:0 7px 25px rgba(68,9,195,.5);-webkit-border-radius:8px;border-radius:8px;padding:4px 20px}
 .main .mission-card__num{font-size:80px}
-.main .profit__img1{left:110%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
-.main .profit__img2{right:105%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.main .profit__img1{left:110%; top: 50%; -webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.main .profit__img2{right:105%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%) rotate(-25deg);}
 .main .sword__img{top:95%;-webkit-transform:translateX(-55%);-ms-transform:translateX(-55%);transform:translateX(-55%)}
 .main .main-bg-gr{background:-webkit-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:-o-linear-gradient(359.51deg,#e52229 3.24%,#0500ff 98.59%);background:linear-gradient(90.49deg,#e52229 3.24%,#0500ff 98.59%);height:75%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);z-index:0}
 .main .magic-card{width:45%;margin-top:48px}
@@ -70,7 +69,7 @@ header .change #burger_list2{opacity:0}
 .odometer-value,.odometer.odometer-auto-theme,.odometer.odometer-theme-default{font-weight:900}
 .aside{width:100%;padding-bottom:130px;background-color:#02071c}
 .aside .our-team{padding:180px 0}
-.aside .our-team-item{height:395px}
+.aside .our-team-item{height:395px;}
 .aside .our-team-item__job{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);bottom:19px;font-size:13px;letter-spacing:0}
 .aside .slick-slide{margin:0 15px}
 .aside .slick-list{margin-left:-150px}
@@ -90,7 +89,6 @@ header .change #burger_list2{opacity:0}
 .footer a svg{-webkit-transition:.3s all;-o-transition:.3s all;transition:.3s all}
 .footer a:hover svg{-webkit-transform:scale(1.05);-ms-transform:scale(1.05);transform:scale(1.05)}
 @media (max-width:1600px){
-.aside .our-team-item__job{font-size:14px}
 .aside .slick-slide{margin:0 15px}
 .aside .slick-list{margin-left:-150px}
 }
@@ -107,7 +105,7 @@ header .change #burger_list2{opacity:0}
 }
 @media (max-width:1024px){
 .title-text{font-size:20px}
-.sub-title-text{font-size:32px}
+.sub-title-text{font-size:32px; line-height: 38px;}
 .main .ready__sub-title{font-size:24px;line-height:28.4px}
 .main .mission{background-image:none;margin:70px 0 65px;padding:0}
 .main .mission-card{width:50%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}
@@ -118,6 +116,9 @@ header .change #burger_list2{opacity:0}
 @media (max-width:992px){
 .roadmap-card .arrows{width:35%}
 .main .ready__sub-title{font-size:24px;line-height:28.4px}
+.main .our-NFTs-item img {
+    width: 100%;
+}
 }
 @media (max-width:768px){
 .main .our-NFTs.container{padding:0}
@@ -132,12 +133,10 @@ header .change #burger_list2{opacity:0}
 @media (max-width:576px){
 .main .our-NFTs{margin-bottom:60px}
 .main .our-NFTs{padding:0}
-.main .our-NFTs-item{height:150px}
 .main .our-NFTs-carousel{padding-bottom:30px;margin-top:28px}
 .main .our-NFTs-carousel .slick-slide{margin:0 8px}
-.main .our-NFTs-carousel .slick-list{margin-left:-45px}
+.main .our-NFTs-carousel .slick-list{margin-left:-25px}
 .aside .our-team{padding:50px 15px 80px 15px}
-.aside .our-team-item__job{font-size:15px}
 .main .mission-card{width:90%}
 .main .mission-card__num{font-size:60px}
 .main .magic-card{width:100%;margin-top:30px}
