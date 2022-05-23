@@ -10,7 +10,7 @@ const menuBurger = document.querySelector('.menu-burger'),
 
       window.onload = function () {
         setTimeout(() => {
-            body.classList.remove('overflow-hidden"')
+            body.classList.add('overflow-visible')
             loader.classList.add('hidden');
             window.scrollTo(0, 0);
         }, 1000);
