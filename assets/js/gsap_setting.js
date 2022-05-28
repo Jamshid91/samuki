@@ -62,6 +62,4 @@ if (window.matchMedia("(min-width: 992px)").matches) {
     gsap.from('.roadmap-card2', { opacity: 0, duration: .3, delay: 1, x: 50,  scrollTrigger: '.roadmap-card2'});
     gsap.from('.arrows2', { opacity: 0, duration: .3, delay: .5, y: -50, x: 50, scrollTrigger: '.roadmap-card3'});
     gsap.from('.roadmap-card3', { opacity: 0, duration: .3, delay: 1, x: -50,  scrollTrigger: '.roadmap-card3'});
-    gsap.from('.arrows3', { opacity: 0, duration: .3, delay: .5, x: -50, y: -50, scrollTrigger: '.roadmap-card4'});
-    gsap.from('.roadmap-card4', { opacity: 0, duration: .3, delay: 1, x: 50,  scrollTrigger: '.roadmap-card4'});
   }

@@ -13,7 +13,7 @@ const menuBurger = document.querySelector('.menu-burger'),
             body.classList.add('showScroll')
             loader.classList.add('hidden');
             window.scrollTo(0, 0);
-        }, 1000);
+        }, 100);
     }
 
 menuBurger.addEventListener('click', () => {
@@ -55,22 +55,7 @@ if(screenPosition > positionOdometer) {
 
 
 
-  // parallax
-if (window.matchMedia("(min-width: 1024px)").matches) {
-  let prl = document.querySelectorAll('.prl')
-  document.addEventListener('mousemove', parallax)
 
-  function parallax(e) {
-    prl.forEach(prl => {
-      const speed = prl.getAttribute('data-speed')
-
-      const x = (window.innerWidth - e.pageX*speed)/80
-      const y = (window.innerHeight - e.pageY*speed)/80
-
-      prl.style.transform = `translateX(${x}px) translateY(${y}px)`
-    })
-  };
-}
 
 
 
